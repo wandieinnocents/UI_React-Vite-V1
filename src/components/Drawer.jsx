@@ -5,25 +5,26 @@ import {
   List,
   ListItem,
   ListItemText,
-//  makeStyles
+ makeStyles
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 
 
-// const useStyles = makeStyles(()=>({
-//     link:{
-//         textDecoration:"none",
-//         color: "blue",
-//         fontSize: "20px",
-//     },
-//     icon:{
-//         color: "white"
-//     }
-// }));
+const useStyles = makeStyles(()=>({
+    link:{
+        textDecoration:"none",
+        color: "red",
+        fontSize: "20px",
+    },
+    icon:{
+        color: "white"
+    }
+}));
 
 function DrawerComponent() {
-// const classes = useStyles();
+const classes = useStyles();
+
   const [openDrawer, setOpenDrawer] = useState(false);
   return (
     <>
@@ -53,6 +54,9 @@ function DrawerComponent() {
             </ListItemText>
           </ListItem>
         </List>
+
+
+        {/* new list */}
       </Drawer>
       <IconButton onClick={() => setOpenDrawer(!openDrawer)}>
         <MenuIcon />
