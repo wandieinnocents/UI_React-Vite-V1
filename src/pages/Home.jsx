@@ -7,6 +7,10 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import Stack from '@mui/material/Stack';
 
+// images
+import banner from "../assets/seo3.png"
+
+
 
 // const Item = styled('div')(({ theme }) => ({
 //   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -24,7 +28,7 @@ export default function Home() {
       {/* content */}
         <Grid xs={12} md={6} lg={6} xl={6} 
         
-        style={{ paddingLeft:50,paddingRight:10, paddingTop:100,paddingBottom:100, fontSize:10 }}>
+        style={{ paddingLeft:50,paddingRight:10, paddingTop:100,paddingBottom:120, fontSize:10 }}>
         <Typography variant="h2" gutterBottom>
          <b>Where <span style={{ color: '#f45e20' }}>Organic</span> Intelligence Meets AI</b>
         </Typography>
@@ -46,12 +50,9 @@ export default function Home() {
         </Grid>
 
         {/* image */}
-        <Grid xs={12} md={6} lg={6} xl={6}>
-        {/* <img width="600" src={require('../assets/seo.png')} alt="Reaact Image" /> */}
+        <Grid xs={12} md={6} lg={6} xl={6} style={{  paddingLeft:50 ,paddingTop:50 }}>
+        <img width="70%" src={banner} alt="Reaact Image" />
         
-
-          {/* <img width="600" src="https://cdn.pixabay.com/photo/2023/05/14/19/42/sky-7993656_1280.jpg" alt="React Image" /> */}
-          
           
         </Grid>
         
