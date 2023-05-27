@@ -1,25 +1,22 @@
-import { Routes, Route } from "react-router-dom"
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
-import Home from "./components/Home"
-import About from "./components/About"
-import Contact from "./components/Contact"
-
-
-
+import Header from './components/Header'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Products from './pages/Products'
+import Blog from './pages/Blog'
 function App() {
-
   return (
-    <div className="App">
-    <Routes>
-      <Route path="/" element={ <Home/> } />
-      <Route path="about" element={ <About/> } />
-      <Route path="contact" element={ <Contact/> } />
-    </Routes>
-  </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </>
   )
 }
-
 export default App
