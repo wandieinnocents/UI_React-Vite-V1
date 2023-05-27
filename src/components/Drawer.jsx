@@ -5,6 +5,7 @@ import {
   List,
   ListItem,
   ListItemText,
+  Typography,
  makeStyles
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
@@ -29,7 +30,11 @@ const useStyles = makeStyles(()=>({
     },
     icon:{
         color: "white"
-    }
+    },logo: {
+      // flexGrow: "1",
+      padding:20,
+      cursor: "pointer",
+    },
 }));
 
 function DrawerComponent() {
@@ -43,6 +48,14 @@ const classes = useStyles();
         
         onClose={() => setOpenDrawer(false)}
       >
+      {/* replace with logo */}
+      <Typography variant="h4" className={classes.logo}>
+
+      Logo Here
+
+      </Typography>
+
+
         <List className={classes.background_color}>
          <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
