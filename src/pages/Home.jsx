@@ -1,21 +1,21 @@
 // import * as React from 'react';
 import Box from '@mui/system/Box';
 import Grid from '@mui/system/Unstable_Grid';
-import styled from '@mui/system/styled';
+// import styled from '@mui/system/styled';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import Stack from '@mui/material/Stack';
 
 
-const Item = styled('div')(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  border: '1px solid',
-  borderColor: theme.palette.mode === 'dark' ? '#444d58' : '#ced7e0',
-  padding: theme.spacing(1),
-  borderRadius: '4px',
-  textAlign: 'center',
-}));
+// const Item = styled('div')(({ theme }) => ({
+//   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+//   border: '1px solid',
+//   borderColor: theme.palette.mode === 'dark' ? '#444d58' : '#ced7e0',
+//   padding: theme.spacing(1),
+//   borderRadius: '4px',
+//   textAlign: 'center',
+// }));
 
 export default function Home() {
   return (
@@ -47,9 +47,10 @@ export default function Home() {
 
         {/* image */}
         <Grid xs={12} md={6} lg={6} xl={6}>
-        {/* <img width="600" src="../assets/" alt="React Image" /> */}
+        {/* <img width="600" src={require('../assets/seo.png')} alt="Reaact Image" /> */}
+        
 
-          <img width="600" src="https://cdn.pixabay.com/photo/2023/05/14/19/42/sky-7993656_1280.jpg" alt="React Image" />
+          {/* <img width="600" src="https://cdn.pixabay.com/photo/2023/05/14/19/42/sky-7993656_1280.jpg" alt="React Image" /> */}
           
           
         </Grid>
