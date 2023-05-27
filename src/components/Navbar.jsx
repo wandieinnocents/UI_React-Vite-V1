@@ -13,7 +13,7 @@ import DrawerComponent from "./Drawer";
 
 const useStyles = makeStyles((theme) => ({
   background_color:{
-    backgroundColor:"black",
+    backgroundColor:"#131912",
     // height:"100%",
 
   },
@@ -50,7 +50,7 @@ function Navbar() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <AppBar position="static" className={classes.background_color}>
+    <AppBar position="static" className={classes.background_color} style={{ padding:16 }}>
       <CssBaseline />
       <Toolbar  >
         <Typography variant="h4" className={classes.logo}>

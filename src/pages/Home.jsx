@@ -20,10 +20,11 @@ const Item = styled('div')(({ theme }) => ({
 export default function Home() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} style={{ backgroundColor:'black', color:'white' }}>
       {/* content */}
         <Grid xs={12} md={6} lg={6} xl={6} 
-        style={{ paddingLeft:50,paddingRight:10, paddingTop:100, fontSize:10 }}>
+        
+        style={{ paddingLeft:50,paddingRight:10, paddingTop:150,paddingBottom:150, fontSize:10 }}>
         <Typography variant="h2" gutterBottom>
          <b>Where <span style={{ color: '#f45e20' }}>Organic</span> Intelligence Meets AI</b>
         </Typography>
@@ -34,10 +35,10 @@ export default function Home() {
 
         {/* buttons */}
         <Stack direction="row" spacing={2} mt={3}>
-          <Button variant="contained" color="secondary" endIcon={<SendIcon />}>
+          <Button variant="contained" style={{ backgroundColor: '#f45e20' }} endIcon={<SendIcon />}>
             Learn More
           </Button>
-          <Button variant="contained" endIcon={<SendIcon />}>
+          <Button variant="contained" style={{ backgroundColor: '#f45e20' }}  endIcon={<SendIcon />}>
             Contact Us
           </Button>
         </Stack>
