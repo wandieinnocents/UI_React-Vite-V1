@@ -20,6 +20,9 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { CardActionArea } from '@mui/material';
 
+// imported components: pages
+import Footer from "../components/Footer"
+
 
 
 // const Item = styled('div')(({ theme }) => ({
@@ -230,23 +233,8 @@ export default function Home() {
         
       </Grid>
 
-      {/* footer */}
-       {/* Grid row  */}
-       <Grid container spacing={2} style={{ backgroundColor:'#f45e20', color:'#FFFFFF' }}>
-        {/* col-spacer */}
-        
-
-        {/* image */}
-        <Grid xs={12} md={12} lg={12} xl={12} >
-        
-            <center><Typography variant="h7" gutterBottom>
-            <b>@2023 React.js + vite,  Custom Design by : Wandie Innocents</b>
-            </Typography></center>
-        </Grid>
-
-       
-        
-      </Grid>
+      {/* footer component */}
+      <Footer />
 
       
     </Box>
