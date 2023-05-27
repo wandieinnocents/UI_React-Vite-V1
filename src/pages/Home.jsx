@@ -197,7 +197,7 @@ export default function Home() {
       </Grid>
 
       {/* Grid row  */}
-      <Grid container spacing={2} style={{ backgroundColor:'#335b7c', color:'#FFFFFF' }}>
+      <Grid container spacing={2} style={{ backgroundColor:'#335b7c', color:'#FFFFFF', borderTopLeftRadius : 100, borderTopRightRadius : 100, }}>
       {/* content */}
         <Grid xs={12} md={6} lg={6} xl={6} 
         style={{  paddingLeft:50 ,paddingTop:20 }}
@@ -212,7 +212,7 @@ export default function Home() {
         >
         
         <Typography variant="h3" gutterBottom>
-            <b>Search Engine Optimization </b>
+            <b>Mobile Application development </b>
             </Typography>
             <Typography variant="h5" gutterBottom>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

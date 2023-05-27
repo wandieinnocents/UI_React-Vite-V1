@@ -80,7 +80,7 @@ const classes = useStyles();
 
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/about" className={classes.link}>Faq</Link>
+              <Link to="/about" className={classes.link}>Blogs</Link>
             </ListItemText>
           </ListItem>
           
