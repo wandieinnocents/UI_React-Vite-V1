@@ -67,7 +67,7 @@ export default function Home() {
       {/* content */}
         <Grid xs={12} md={6} lg={6} xl={6} 
         
-        style={{ paddingLeft:50,paddingRight:10, paddingTop:120,paddingBottom:120, fontSize:10 }}>
+        style={{ paddingLeft:50,paddingRight:10, paddingTop:50,paddingBottom:100, fontSize:10 }}>
         <Typography variant="h3" gutterBottom>
          <b>Search Engine Optimization </b>
         </Typography>
@@ -87,7 +87,7 @@ export default function Home() {
         </Grid>
 
         {/* image */}
-        <Grid xs={12} md={6} lg={6} xl={6} style={{  paddingLeft:50 ,paddingTop:30 }}>
+        <Grid xs={12} md={6} lg={6} xl={6} style={{  paddingLeft:50 ,paddingTop:10 }}>
         <img width="70%" src={banner1} alt="Reaact Image" />
         
           

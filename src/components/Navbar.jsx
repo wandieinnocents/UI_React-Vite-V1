@@ -11,6 +11,10 @@ import {
 import { Link } from "react-router-dom";
 import DrawerComponent from "./Drawer";
 
+// images
+// import logo from "../assets/logo.webp"
+
+
 const useStyles = makeStyles((theme) => ({
   background_color:{
     backgroundColor:"#131912",
@@ -53,11 +57,12 @@ function Navbar() {
     <AppBar position="static" className={classes.background_color} style={{ padding:16 }}>
       <CssBaseline />
       <Toolbar  >
+      {/* <img width="10%" src={logo} alt="Reaact Image" className={classes.logo}/> */}
         <Typography variant="h4" className={classes.logo}>
 
-          Logo Here
+          LINX-AI
           
-        </Typography>
+        </Typography> 
         
         {isMobile ? (
           <DrawerComponent />

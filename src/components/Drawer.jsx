@@ -51,7 +51,7 @@ const classes = useStyles();
       {/* replace with logo */}
       <Typography variant="h4" className={classes.logo}>
 
-      Logo Here
+      LINX-AI
 
       </Typography>
 
