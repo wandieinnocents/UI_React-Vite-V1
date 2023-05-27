@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
 
     <>
-    {/* <div>adlkfj</div> */}
+    {/* <div>Replace with new menu</div> */}
     
       <PrimaryNav>
         <Hamburger />
