@@ -197,7 +197,11 @@ export default function Home() {
       </Grid>
 
       {/* Grid row  */}
-      <Grid container spacing={2} style={{ backgroundColor:'#335b7c', color:'#FFFFFF', borderTopLeftRadius : 100, borderTopRightRadius : 100, }}>
+      <Grid container spacing={2} 
+      style={{ backgroundColor:'#335b7c', color:'#FFFFFF', 
+         borderTopLeftRadius : 100, borderTopRightRadius : 100,
+         
+         }}>
       {/* content */}
         <Grid xs={12} md={6} lg={6} xl={6} 
         style={{  paddingLeft:50 ,paddingTop:20 }}
