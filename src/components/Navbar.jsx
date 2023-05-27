@@ -60,7 +60,7 @@ function Navbar() {
       {/* <img width="10%" src={logo} alt="Reaact Image" className={classes.logo}/> */}
         <Typography variant="h4" className={classes.logo}>
 
-          LINX-AI
+          LINX-<span style={{ color: '#f45e20' }}>AI</span>
           
         </Typography> 
         

@@ -12,6 +12,14 @@ import banner from "../assets/seo3.png"
 import banner1 from "../assets/seo.png"
 import banner2 from "../assets/seo1.png"
 // import banner3 from "../assets/seo3.png"
+import mission from "../assets/mission.png"
+
+
+// cards
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import { CardActionArea } from '@mui/material';
 
 
 
@@ -62,6 +70,96 @@ export default function Home() {
         </Grid>
         
       </Grid>
+
+      {/* Grid row services  */}
+      <Grid container  style={{ backgroundColor:'white', color:'black' , marginTop:30, }}>
+
+          {/* col-spacer */}
+          <Grid xs={12} md={1.5} lg={1.5} xl={1.5} ></Grid>
+
+          {/* col-1 */}
+          <Grid xs={12} md={3} lg={3} xl={3} >
+          <center>
+          <Card sx={{ maxWidth: 345 }}>
+                <CardActionArea style={{ padding:30,backgroundColor:'black',color:'white' }}>
+                    
+
+                  <img width="20%" src={mission} alt="React Image" />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div" >
+                        <b>Seo Services</b>
+                      </Typography>
+                      <Typography variant="h6" >
+                      We offer professional SEO services that help websites increase their organic 
+                      search score drastically, in order to compete for the highest rankings
+                      </Typography>
+                    </CardContent>
+
+                  </CardActionArea>
+                  
+                </Card>
+                </center>
+
+          </Grid>
+
+          {/* col-2 */}
+          <Grid xs={12} md={3} lg={3} xl={3} >
+          <center>
+                <Card sx={{ maxWidth: 345 }}>
+                
+                <CardActionArea style={{ padding:30,backgroundColor:'#f45e20',color:'white' }}>
+                    
+
+                  <img width="20%" src={mission} alt="React Image" />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div" >
+                        <b>Seo Services</b>
+                      </Typography>
+                      <Typography variant="h6" >
+                      We offer professional SEO services that help websites increase their organic 
+                      search score drastically, in order to compete for the highest rankings
+                      </Typography>
+                    </CardContent>
+
+                  </CardActionArea>
+                  
+                </Card>
+                </center>
+
+          </Grid>
+
+
+          {/* col-3 */}
+          <Grid xs={12} md={3} lg={3} xl={3} >
+          <center>
+                <Card sx={{ maxWidth: 345 }}>
+              <CardActionArea style={{ padding:30,backgroundColor:'black',color:'white' }}>
+                    
+
+                  <img width="20%" src={mission} alt="React Image" />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div" >
+                        <b>Seo Services</b>
+                      </Typography>
+                      <Typography variant="h6" >
+                      We offer professional SEO services that help websites increase their organic 
+                      search score drastically, in order to compete for the highest rankings
+                      </Typography>
+                    </CardContent>
+
+                  </CardActionArea>
+                 
+                </Card>
+                </center>
+
+          </Grid>
+
+          {/* col-spacer */}
+          <Grid xs={12} md={1.5} lg={1.5} xl={1.5} ></Grid>
+        
+      </Grid>
+
+      
 
       {/* Grid row  */}
       <Grid container spacing={2} style={{ backgroundColor:'white', color:'black' }}>
