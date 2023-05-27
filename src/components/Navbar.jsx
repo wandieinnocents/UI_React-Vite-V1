@@ -24,12 +24,19 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: "none",
     color: "white",
     fontSize: "20px",
-    marginLeft: theme.spacing(20),
+    marginLeft: theme.spacing(5),
     "&:hover": {
       color: "yellow",
-      borderBottom: "1px solid white",
+      borderBottom: "2px solid white",
     },
   },
+
+  padding_right:{
+    marginRight: theme.spacing(20),
+
+  },
+ 
+
 }));
 
 function Navbar() {
@@ -38,13 +45,15 @@ function Navbar() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" >
       <CssBaseline />
-      <Toolbar>
+      <Toolbar  >
         <Typography variant="h4" className={classes.logo}>
-          Navbar
+
+          Logo
           
         </Typography>
+        
         {isMobile ? (
           <DrawerComponent />
         ) : (
