@@ -9,17 +9,16 @@ import SendIcon from '@mui/icons-material/Send';
 import Stack from '@mui/material/Stack';
 
 // images
-import banner from "../assets/seo3.png"
+// import banner from "../assets/seo3.png"
 import banner1 from "../assets/seo.png"
-import banner2 from "../assets/seo1.png"
-// import banner3 from "../assets/seo3.png"
-import mission from "../assets/mission.png"
+
+
 
 
 // cards
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import { CardActionArea } from '@mui/material';
+// import Card from '@mui/material/Card';
+// import CardContent from '@mui/material/CardContent';
+// import { CardActionArea } from '@mui/material';
 
 // imported components: pages
 import Footer from "../components/Footer"
@@ -30,7 +29,9 @@ function About() {
     
       
       {/* Grid row services  */}
-      <Grid container  style={{ backgroundColor:'black', color:'white' ,  }}>
+      
+      <Grid container  style={{ backgroundColor:'black', color:'white' , 
+      backgroundImage: `url("https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_1280.jpg")`  }} >
 
           {/* col-spacer */}
           <Grid xs={12} md={3} lg={3} xl={3} ></Grid>
