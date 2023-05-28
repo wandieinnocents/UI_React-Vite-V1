@@ -29,6 +29,46 @@ function About() {
     <Box sx={{ flexGrow: 1 }}>
     
       
+      {/* Grid row services  */}
+      <Grid container  style={{ backgroundColor:'black', color:'white' ,  }}>
+
+          {/* col-spacer */}
+          <Grid xs={12} md={3} lg={3} xl={3} ></Grid>
+
+          {/* col-1 */}
+          <Grid xs={12} md={6} lg={6} xl={6} style={{ paddingHorizontal:20, paddingTop:100, paddingBottom:100 }} >
+          <center>
+          <Typography variant="h2" >
+                      <b>About Us</b>
+            </Typography> 
+          <Typography variant="h6" >
+                      We offer professional SEO services that help websites increase their organic 
+                      search score drastically, in order to compete for the highest rankings
+            </Typography> 
+
+            {/* buttons */}
+            {/* buttons */}
+            <Stack direction="row" spacing={2} mt={3} style={{ display: 'flex',  justifyContent:'center', alignItems:'center' }}>
+              <Button variant="contained" style={{ backgroundColor: '#f45e20' }} endIcon={<SendIcon />}>
+                Learn More
+              </Button>
+              <Button variant="contained" style={{ backgroundColor: '#f45e20' }}  endIcon={<SendIcon />}>
+                Contact Us
+              </Button>
+            </Stack>
+          </center>
+          </Grid>
+
+          
+
+
+          {/* col-3 */}
+          <Grid xs={12} md={3} lg={3} xl={3} > </Grid>
+
+          {/* col-spacer */}
+          <Grid xs={12} md={3} lg={3} xl={3} ></Grid>
+        
+      </Grid>
 
       {/* Grid row  */}
       <Grid container spacing={2} style={{ backgroundColor:'white', color:'black' }}>
