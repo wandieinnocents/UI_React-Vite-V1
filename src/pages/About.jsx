@@ -77,20 +77,14 @@ function About() {
         
         style={{ paddingLeft:50,paddingRight:10, paddingTop:100,paddingBottom:100, fontSize:10 }}>
         <Typography variant="h3" gutterBottom>
-         <b>Search Engine Optimization </b>
+         <b>Who we are </b>
         </Typography>
         <Typography variant="h5" gutterBottom>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        At Linx Solutions, we are passionate about helping businesses grow and succeed in the digital world. Our team of experts specializes in digital marketing services, including search engine optimization, social media marketing, email marketing, and more. With our proven strategies, cutting-edge technology, and personalized approach, 
+        we help businesses of all sizes achieve their marketing goals and reach their full potential.
         </Typography>
 
-        {/* buttons */}
-        <Stack direction="row" spacing={2} mt={3}>
-          <Button variant="contained" style={{ backgroundColor: '#f45e20' }} endIcon={<SendIcon />}>
-            Read More
-          </Button>
-          
-        </Stack>
+       
        
         </Grid>
 
