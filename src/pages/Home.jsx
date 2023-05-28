@@ -66,7 +66,7 @@ export default function Home() {
 
         {/* image */}
         <Grid xs={12} md={6} lg={6} xl={6} style={{  paddingLeft:50 ,paddingTop:30 }}>
-        <img width="70%" src={banner} alt="Reaact Image" />
+        <img width="70%" style={{ paddingBottom:70 }} src={banner} alt="Reaact Image" />
         
           
         </Grid>
@@ -219,7 +219,7 @@ export default function Home() {
             <b>Mobile Application development </b>
             </Typography>
             <Typography variant="h5" gutterBottom>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             </Typography>
 
